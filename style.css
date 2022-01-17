@@ -1,0 +1,117 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(210, 217, 224);
+    width:14440px;
+    height:3306px;
+}
+
+.container{
+    display:flex;
+    padding:10px 0px 0px 40px;
+   
+}
+
+}
+.demo-title{
+    font-size=40px;
+    font-weight:bold;
+}
+.camera{
+    background-image:url(images/white-triangle-369b8d2d.jpg);
+    border-radius: 50%;
+    margin-left:50px;
+}
+
+.first-button{
+    text-decoration:none;
+    background-color:mediumvioletred;
+    color:white;
+    padding:5px;
+    border-radius:15px;
+}
+
+/* here design start production */
+.product-demo{
+    margin-top:60px;
+    width:1047px;
+    height:1662px;
+   
+   
+}
+
+
+.product-card{
+    display: flex;
+}
+.product-title{
+    text-align:center;
+}
+ .card-items{
+     display:grid;
+     grid-template-columns:repeat(3,1fr);
+ }
+ .card{
+     width: 329px;
+     height:476px;
+     background-color: rgb(236, 248, 250);
+     margin:10px;
+     border-radius:5px;
+     padding:8px;
+ }
+ .product-banner img{
+     width:300px;
+     height:256px;
+ }
+ p a{
+     text-decoration: none;
+     color:mediumvioletred;
+     text-align: end;
+ }
+
+ /* all product feature */
+ .all-product{
+    margin-top:50px;
+}
+
+ .all-in{
+     display:flex;
+     width:11110px;
+     height:270px;
+     
+ }
+ .all{
+     display:flex;
+ }
+ .all-product-img{
+    
+     width:404px;
+     height:204px;
+     text-align: center;
+ }
+ .product-feature{
+   
+    width:610px;
+    height:224px;
+    text-align: center;
+}
+ .last-button{
+    text-decoration:none;
+    background-color:mediumvioletred;
+    color:white;
+    padding:5px;
+ }
+ footer{
+     background-color: rgb(57, 57, 66);
+     width:1047px;
+    height:200px;
+    color: white;
+    text-align:center;
+    padding:15px;
+ }
+ footer .icon{
+     font-size: 35px;
+     padding:5px;
+ }

@@ -1,0 +1,23 @@
+/* responsive web design  */
+
+@media only screen and(max-width:668px) {
+    .container{
+        flex-direction:column;
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width:668px) and (max-width:992px) {
+    .product-title{
+        text-align:center;
+    }
+    .card-items{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    footer{
+        width:100%;
+    }
+}
